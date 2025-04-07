@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryApp.Commands\InventoryApp.Commands.csproj" />
+    <ProjectReference Include="..\InventoryApp.Models\InventoryApp.Models.csproj" />
+    <ProjectReference Include="..\InventoryApp.Services\InventoryApp.Services.csproj" />
+  </ItemGroup>
+
+</Project>
